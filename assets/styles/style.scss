@@ -1,0 +1,28 @@
+$orange1 : #ffc107;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli", Arial, sans-serif;
+}
+
+.container{
+    margin: auto;
+    padding: 0 32px;
+    max-width: 1400px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+@import 'section1';
+@import 'menu';
+@import 'section2';
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'footer';

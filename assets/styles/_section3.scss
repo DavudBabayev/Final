@@ -1,0 +1,128 @@
+.section3 {
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(249, 249, 249);
+
+    .sec3con {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .text {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 10px;
+
+            h3 {
+                font-size: 12px;
+                font-weight: 400;
+                color: gray;
+                letter-spacing: 2px;
+            }
+
+            h1 {
+                font-weight: 400;
+                font-size: 35px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .select {
+            display: flex;
+            gap: 30px;
+            font-size: 20px;
+
+            .act {
+                color: $orange1;
+                border-bottom: 3px solid $orange1;
+            }
+
+            p,
+            a {
+                color: black;
+                cursor: pointer;
+                transition: all 0.3s linear;
+
+                &:hover {
+                    color: $orange1;
+                    border-bottom: 3px solid $orange1;
+                }
+            }
+        }
+
+        .cards {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+
+            .card {
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                transition: all 0.3s ease;
+                background-color: white;
+                box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+                -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+                -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+                &:hover {
+                    background-color: $orange1;
+                }
+
+                .img {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 99999999px;
+
+                    img {
+                        width: 75px;
+                        height: 75px;
+                        border-radius: 99999999px;
+                    }
+                }
+                .name{
+                    width: 70%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    h2{
+                        font-weight: 400;
+                        font-size: 24px;
+                    }
+                    h3{
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: gray;
+                    }
+                }
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section3{
+        .sec3con{
+            .cards{
+                .card{
+                    flex: 1 1 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

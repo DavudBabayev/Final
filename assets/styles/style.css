@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  padding: 0 32px;
+  max-width: 1400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.section1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section1 .sec1con {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 101;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .sec1con a {
+  font-size: 25px;
+  color: white;
+  border: 3px solid white;
+  padding: 5px;
+}
+.section1 .sec1con i {
+  color: white;
+  font-size: 30px;
+}
+.section1 .carousel-con {
+  width: 100%;
+  overflow: hidden;
+}
+.section1 .carousel-con .carousel {
+  width: 300%;
+  display: flex;
+}
+.section1 .carousel-con .carousel .item1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/Images/h3.webp");
+}
+.section1 .carousel-con .carousel .item2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/Images/h1.webp");
+}
+.section1 .carousel-con .carousel .item3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/Images/h2.webp");
+}
+.section1 .carousel-con .carousel .items {
+  width: 33.3333333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  min-height: 750px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.section1 .carousel-con .carousel .items .text {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  gap: 20px;
+  position: relative;
+  padding: 20px;
+}
+.section1 .carousel-con .carousel .items .text .left {
+  position: absolute;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 200px;
+}
+.section1 .carousel-con .carousel .items .text .right {
+  position: absolute;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 200px;
+}
+.section1 .carousel-con .carousel .items .text i {
+  font-size: 40px;
+}
+.section1 .carousel-con .carousel .items .text h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+.section1 .carousel-con .carousel .items .text button {
+  background-color: #ffc107;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+}
+.section1 .carousel-con .carousel .items .text button:hover {
+  filter: brightness(110%);
+}
+
+@media screen and (max-width: 1000px) and (min-height: 768px) {
+  .section1 .carousel-con .carousel .items .text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section1 .carousel-con .carousel .items .text div {
+    display: none;
+  }
+}
+.menu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  display: flex;
+}
+.menu .bi-x {
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu ul a {
+  color: white;
+  font-size: 32px;
+  transition: all 0.3s linear;
+}
+.menu ul a:hover {
+  color: #ffc107;
+}
+.menu ul .active {
+  color: #ffc107;
+}
+
+.menu.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.section2 {
+  width: 100%;
+  padding: 50px 0;
+}
+.section2 .sec2con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .sec2con .image {
+  width: 50%;
+}
+.section2 .sec2con .image img {
+  width: 100%;
+  height: auto;
+}
+.section2 .sec2con .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.section2 .sec2con .text h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  letter-spacing: 2px;
+}
+.section2 .sec2con .text h1 {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.section2 .sec2con .text p {
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 .sec2con {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section2 .sec2con .image {
+    width: 100%;
+  }
+  .section2 .sec2con .text {
+    width: 100%;
+  }
+}
+.section3 {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(249, 249, 249);
+}
+.section3 .sec3con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.section3 .sec3con .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.section3 .sec3con .text h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+  letter-spacing: 2px;
+}
+.section3 .sec3con .text h1 {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.section3 .sec3con .select {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+.section3 .sec3con .select .act {
+  color: #ffc107;
+  border-bottom: 3px solid #ffc107;
+}
+.section3 .sec3con .select p,
+.section3 .sec3con .select a {
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.section3 .sec3con .select p:hover,
+.section3 .sec3con .select a:hover {
+  color: #ffc107;
+  border-bottom: 3px solid #ffc107;
+}
+.section3 .sec3con .cards {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section3 .sec3con .cards .card {
+  flex: 1 1 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background-color: white;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+}
+.section3 .sec3con .cards .card:hover {
+  background-color: #ffc107;
+}
+.section3 .sec3con .cards .card .img {
+  width: 75px;
+  height: 75px;
+  border-radius: 99999999px;
+}
+.section3 .sec3con .cards .card .img img {
+  width: 75px;
+  height: 75px;
+  border-radius: 99999999px;
+}
+.section3 .sec3con .cards .card .name {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section3 .sec3con .cards .card .name h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.section3 .sec3con .cards .card .name h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+.section3 .sec3con .cards .card p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 .sec3con .cards .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.section4 {
+  width: 100%;
+  padding: 50px 0;
+}
+.section4 .sec4con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.section4 .sec4con .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.section4 .sec4con .text h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+.section4 .sec4con .text p {
+  color: gray;
+}
+.section4 .sec4con .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+.section4 .sec4con .cards .card {
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  height: 400px;
+  background-color: rgb(249, 249, 249);
+  overflow: hidden;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.6);
+}
+.section4 .sec4con .cards .card div {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease;
+  gap: 15px;
+}
+.section4 .sec4con .cards .card div:hover {
+  transform: translateY(-50px);
+}
+.section4 .sec4con .cards .card div img {
+  width: 100%;
+  height: 400px;
+}
+.section4 .sec4con .cards .card div a {
+  color: gray;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section4 .sec4con .text {
+    width: 100%;
+  }
+  .section4 .sec4con .cards {
+    justify-content: center;
+    gap: 40px;
+  }
+  .section4 .sec4con .cards .card {
+    flex: 1 1 65%;
+    max-width: 65%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section4 .sec4con .text {
+    width: 100%;
+  }
+  .section4 .sec4con .cards {
+    justify-content: center;
+    gap: 40px;
+  }
+  .section4 .sec4con .cards .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.section5 {
+  width: 100%;
+  background-image: url("/assets/Images/h4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.section5 .sec5con {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.section5 .sec5con .info {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+}
+.section5 .sec5con .info .inside {
+  border: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section5 .sec5con .info .inside h1 {
+  font-weight: 400;
+}
+.section5 .sec5con .info .inside p {
+  color: gray;
+  letter-spacing: 1px;
+}
+.section5 .sec5con .info .inside button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: #ffc107;
+  color: #ffc107;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.section5 .sec5con .info .inside button:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .section5 .sec5con .info {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section5 .sec5con .info {
+    width: 85%;
+  }
+}
+footer {
+  background: #27272b;
+  padding: 50px 0;
+}
+footer .footcon {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 100px;
+}
+footer .footcon div {
+  flex: 1 1 calc(33% - 100px);
+  max-width: calc(33% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+footer .footcon div h2 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+footer .footcon div p {
+  color: gray;
+  margin-bottom: 10px;
+}
+footer .footcon div p a {
+  color: white;
+}
+footer .footcon div span {
+  display: flex;
+  gap: 20px;
+}
+footer .footcon div span a {
+  font-size: 24px;
+  color: white;
+  transition: all 0.7s ease;
+}
+footer .footcon div span a:hover {
+  color: #ffc107;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  footer .footcon div {
+    flex: 1 1 calc(50% - 100px);
+    max-width: calc(50% - 100px);
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .footcon div {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
