@@ -1,0 +1,83 @@
+.section2bl{
+    width: 100%;
+    padding: 50px 0;
+    .sec2conbl{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        .text{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+            h1{
+                font-weight: 400;
+                font-size: 44px;
+            }
+            p{
+                color: gray;
+                letter-spacing: 1px;
+            }
+        }
+        .cards{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+            .card{
+                flex: 1 1 calc(33% - 40px);
+                max-width: calc(33% - 40px);
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+                p{
+                    color: gray;
+                }
+                a{
+                    color: black;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .section2bl{
+        .sec2conbl{
+            .text{
+                width: 70%;
+            }
+            .cards{
+                .card{
+                    flex: 1 1 calc(50% - 40px);
+                    max-width: calc(50% - 40px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section2bl{
+        .sec2conbl{
+            .text{
+                width: 100%;
+            }
+            .cards{
+                .card{
+                    flex: 1 1 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

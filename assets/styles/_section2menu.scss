@@ -1,0 +1,87 @@
+.section2menu{
+    width: 100%;
+    padding: 100px 0;
+    .sec2conmenu{
+        width: 100%;
+        background-color: rgb(249,249,249);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        .text {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 10px;
+            margin-top: 20px;
+
+            h3 {
+                font-size: 12px;
+                font-weight: 400;
+                color: gray;
+                letter-spacing: 2px;
+            }
+
+            h1 {
+                font-weight: 400;
+                font-size: 35px;
+                margin-bottom: 50px;
+            }
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .name{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid gray;
+                p{
+                    font-size: 24px;
+                }
+                span{
+                    display: flex;
+                    gap: 10px;
+                    i{
+                        cursor: pointer;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .cards{
+                width: 100%;
+                overflow: auto;
+                .cardcar{
+                    width: calc((12 * 300px) + (11 * 20px));
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 20px;
+                    .card{
+                        width: 300px;
+                        height: 450px;
+                        text-align: center;
+                        overflow: hidden;
+                        p{
+                            font-size: 18px;
+                            margin-top: 10px;
+                        }
+                        img{
+                            width: 300px;
+                            height: 400px;
+                            object-fit: cover;
+                            cursor: pointer;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
