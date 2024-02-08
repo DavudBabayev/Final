@@ -1,10 +1,13 @@
 $orange1 : #ffc107;
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Muli", Arial, sans-serif;
+    scroll-behavior: smooth !important;
 }
 
 .container{
@@ -22,6 +25,7 @@ ul{
 @import 'section1';
 @import 'menu';
 @import 'section2';
+@import 'section2ctc';
 @import 'section2menu';
 @import 'section2res';
 @import 'section2bl';

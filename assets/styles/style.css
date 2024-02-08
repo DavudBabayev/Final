@@ -1,8 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Muli", Arial, sans-serif;
+  scroll-behavior: smooth !important;
 }
 
 .container {
@@ -230,6 +235,128 @@ ul {
     width: 100%;
   }
 }
+.section2ctc {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(249, 249, 249);
+}
+.section2ctc .sec2conctc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.section2ctc .sec2conctc .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.section2ctc .sec2conctc .text h1 {
+  font-weight: 400;
+  font-size: 44px;
+}
+.section2ctc .sec2conctc .text p {
+  color: gray;
+}
+.section2ctc .sec2conctc .contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section2ctc .sec2conctc .contact .left {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2ctc .sec2conctc .contact .left h2 {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.section2ctc .sec2conctc .contact .left p {
+  color: gray;
+  font-size: 18px;
+}
+.section2ctc .sec2conctc .contact .left p i {
+  padding: 8px;
+  border-radius: 9999999px;
+  color: black;
+  background-color: white;
+}
+.section2ctc .sec2conctc .contact .right {
+  width: 50%;
+  display: flex;
+}
+.section2ctc .sec2conctc .contact .right form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section2ctc .sec2conctc .contact .right form #message {
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+}
+.section2ctc .sec2conctc .contact .right form #name,
+.section2ctc .sec2conctc .contact .right form #email {
+  width: 45%;
+  height: 30px;
+  padding-left: 5px;
+}
+.section2ctc .sec2conctc .contact .right form #sub {
+  width: 25%;
+  height: 50px;
+  border-color: #ffc107;
+  background-color: #ffc107;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .section2ctc .sec2conctc .text {
+    width: 70%;
+  }
+  .section2ctc .sec2conctc .contact {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .section2ctc .sec2conctc .contact .left {
+    width: 100%;
+  }
+  .section2ctc .sec2conctc .contact .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section2ctc .sec2conctc .text {
+    width: 100%;
+  }
+  .section2ctc .sec2conctc .contact {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .section2ctc .sec2conctc .contact .left {
+    width: 100%;
+  }
+  .section2ctc .sec2conctc .contact .right {
+    width: 100%;
+  }
+  .section2ctc .sec2conctc .contact .right form {
+    flex-direction: column;
+  }
+  .section2ctc .sec2conctc .contact .right form input {
+    width: 100% !important;
+  }
+  .section2ctc .sec2conctc .contact .right form #sub {
+    width: 50% !important;
+  }
+}
 .section2menu {
   width: 100%;
   padding: 100px 0;
@@ -288,6 +415,11 @@ ul {
 .section2menu .sec2conmenu .main .cards {
   width: 100%;
   overflow: auto;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+}
+.section2menu .sec2conmenu .main .cards::-webkit-scrollbar {
+  height: 1px;
 }
 .section2menu .sec2conmenu .main .cards .cardcar {
   width: 3820px;
@@ -317,6 +449,21 @@ ul {
   transform: scale(1.05);
 }
 
+@media screen and (max-width: 1000px) {
+  .section2menu .sec2conmenu .text {
+    width: 100%;
+  }
+  .section2menu .sec2conmenu .main .name {
+    justify-content: center;
+  }
+  .section2menu .sec2conmenu .main .name p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .section2menu .sec2conmenu .main .name span {
+    display: none;
+  }
+}
 .section2res {
   width: 100%;
   padding: 100px 0;

@@ -55,6 +55,11 @@
             .cards{
                 width: 100%;
                 overflow: auto;
+                &::-webkit-scrollbar{
+                    height: 1px;
+                }
+                transition: all 0.3s ease;
+                scroll-behavior: smooth;
                 .cardcar{
                     width: calc((12 * 300px) + (11 * 20px));
                     display: flex;
@@ -79,6 +84,28 @@
                                 transform: scale(1.05);
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .section2menu{
+        .sec2conmenu{
+            .text{
+                width: 100%;
+            }
+            .main{
+                .name{
+                    justify-content: center;
+                    p{
+                      font-size: 30px;
+                      margin-bottom: 10px;
+                    }
+                    span{
+                        display: none;
                     }
                 }
             }
