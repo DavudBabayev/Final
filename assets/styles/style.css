@@ -40,15 +40,32 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.section1 .sec1con a {
+.section1 .sec1con .home {
   font-size: 25px;
   color: white;
   border: 3px solid white;
   padding: 5px;
 }
-.section1 .sec1con i {
+.section1 .sec1con span {
+  display: flex;
+  gap: 20px;
+  align-items: center;
   color: white;
   font-size: 30px;
+}
+.section1 .sec1con span i {
+  color: white;
+  cursor: pointer;
+  font-style: normal;
+}
+.section1 .sec1con span .bi-person, .section1 .sec1con span .bi-person-plus {
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+}
+.section1 .sec1con span .bi-person a, .section1 .sec1con span .bi-person-plus a {
+  font-size: 18px;
+  color: white;
 }
 .section1 .carousel-con {
   width: 100%;

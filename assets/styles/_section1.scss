@@ -14,16 +14,33 @@
         justify-content: space-between;
         align-items: center;
 
-        a {
+        .home {
             font-size: 25px;
             color: white;
             border: 3px solid white;
             padding: 5px;
         }
 
-        i {
+        span {
+            display: flex;
+            gap: 20px;
+            align-items: center;
             color: white;
             font-size: 30px;
+            i{
+                color: white;
+                cursor: pointer;
+                font-style: normal;
+            }
+            .bi-person, .bi-person-plus{
+                font-size: 18px;
+                display: flex;
+                gap: 5px;
+                a{
+                    font-size: 18px;
+                    color: white;
+                }
+            }
         }
     }
 
