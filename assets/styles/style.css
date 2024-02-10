@@ -46,26 +46,52 @@ ul {
   border: 3px solid white;
   padding: 5px;
 }
-.section1 .sec1con span {
+.section1 .sec1con .icons {
   display: flex;
   gap: 20px;
   align-items: center;
   color: white;
   font-size: 30px;
 }
-.section1 .sec1con span i {
+.section1 .sec1con .icons i {
   color: white;
   cursor: pointer;
   font-style: normal;
 }
-.section1 .sec1con span .bi-person, .section1 .sec1con span .bi-person-plus {
+.section1 .sec1con .icons .log,
+.section1 .sec1con .icons .user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.section1 .sec1con .icons .log .bi-person,
+.section1 .sec1con .icons .log .bi-person-plus,
+.section1 .sec1con .icons .log .bi-person-circle,
+.section1 .sec1con .icons .user .bi-person,
+.section1 .sec1con .icons .user .bi-person-plus,
+.section1 .sec1con .icons .user .bi-person-circle {
   font-size: 18px;
   display: flex;
   gap: 5px;
 }
-.section1 .sec1con span .bi-person a, .section1 .sec1con span .bi-person-plus a {
+.section1 .sec1con .icons .log .bi-person a,
+.section1 .sec1con .icons .log .bi-person-plus a,
+.section1 .sec1con .icons .log .bi-person-circle a,
+.section1 .sec1con .icons .user .bi-person a,
+.section1 .sec1con .icons .user .bi-person-plus a,
+.section1 .sec1con .icons .user .bi-person-circle a {
   font-size: 18px;
   color: white;
+}
+.section1 .sec1con .icons .log button,
+.section1 .sec1con .icons .user button {
+  font-size: 16px;
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
 }
 .section1 .carousel-con {
   width: 100%;

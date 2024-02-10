@@ -21,24 +21,45 @@
             padding: 5px;
         }
 
-        span {
+        .icons {
             display: flex;
             gap: 20px;
             align-items: center;
             color: white;
             font-size: 30px;
-            i{
+
+            i {
                 color: white;
                 cursor: pointer;
                 font-style: normal;
             }
-            .bi-person, .bi-person-plus{
-                font-size: 18px;
+
+            .log,
+            .user {
                 display: flex;
-                gap: 5px;
-                a{
+                gap: 20px;
+                align-items: center;
+                color: white;
+                font-size: 30px;
+
+                .bi-person,
+                .bi-person-plus,
+                .bi-person-circle {
                     font-size: 18px;
+                    display: flex;
+                    gap: 5px;
+
+                    a {
+                        font-size: 18px;
+                        color: white;
+                    }
+                }
+                button{
+                    font-size: 16px;
+                    border-color: transparent;
+                    background-color: transparent;
                     color: white;
+                    cursor: pointer;
                 }
             }
         }

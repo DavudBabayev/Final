@@ -1,44 +1,34 @@
-let url1 = ' http://localhost:3000/persons';
+let formElement = document.querySelector('#form');
+let url = 'http://localhost:3000/persons/';
 
+let user = localStorage.getItem('currentUser') ? JSON.parse(localStorage.getItem('currentUser')).email : null;
 
-document.getElementById('signup').addEventListener('click', function (event) {
-    event.preventDefault();
-    document.getElementById('login-form').style.display = 'none';
-    document.getElementById('signup-form').style.display = 'block';
-});
+if (user) {
+    window.location = './index.html';
+}
 
-document.getElementById('login').addEventListener('click', function (event) {
-    event.preventDefault();
-    document.getElementById('signup-form').style.display = 'none';
-    document.getElementById('login-form').style.display = 'block';
-});
+console.log(user);
 
-document.getElementById('signup-button').addEventListener('click', function (event) {
-    event.preventDefault();
-    let email = document.getElementById('email').value;
-    let username = document.getElementById('fullname').value;
-    let password = document.getElementById('password1').value;
-    let confirmPassword = document.getElementById('confirm-password').value;
+formElement.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-    if (password.trim() !== confirmPassword.trim()) {
-        alert('Passwords do not match');
-        return;
-    }
-    else {
-        axios.post(url1, {
-            username: username,
-            email: email,
-            password: password
+    let mail = document.querySelector('#mail').value;
+    let password = document.querySelector('#password').value;
+
+    axios.get(url)
+        .then(response => {
+            let data = response.data;
+            console.log(data);
+            let currentUserInfo = data.find((user) => user.email == mail);
+            if (currentUserInfo) {
+                if (currentUserInfo.password == password) {
+                    localStorage.setItem('currentUser', JSON.stringify(currentUserInfo));
+                    window.location = './index.html';
+                } else {
+                    alert('Wrong password');
+                }
+            } else {
+                alert("Wrong email");
+            }
         })
-    }
-});
-
-document.getElementById('login-button').addEventListener('click', function (event) {
-    event.preventDefault();
-    let username = document.getElementById('username').value;
-    let password = document.getElementById('password').value;
-
-    console.log('Username:', username);
-    console.log('Password:', password);
-
 });

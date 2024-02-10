@@ -13,8 +13,17 @@
 <body>
     <div class="section1">
         <div class="container sec1con">
-            <a href="./index.html">Dinner</a>
-            <i style="cursor: pointer;" class="bi bi-list"></i>
+            <a class="home" href="./index.html">Dinner</a>
+            <span class="icons">
+                <i style="cursor: pointer;" class="bi bi-list"></i> 
+                <div class="log">
+                    <i class="bi bi-person"><a href="./login.html">Login</a></i> / 
+                    <i class="bi bi-person-plus"><a href="./register.html">Sign Up</a></i>
+                </div>
+                <div class="user">
+                    <button id="logOut">Log Out</button>
+                </div>
+            </span>
         </div>
         <div class="carousel-con">
             <div class="carousel">
@@ -134,7 +143,7 @@
 
 
 
-
+    <script src="./assets/scripts/user.js"></script>
     <script src="./assets/scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
