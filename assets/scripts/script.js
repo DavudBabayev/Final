@@ -70,59 +70,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //////////DATA//////////
 
-document.addEventListener('DOMContentLoaded', function () {
+const urls = {
+    'pi1': 'http://localhost:3000/main/',
+    'pi2': 'http://localhost:3000/desserts/',
+    'pi3': 'http://localhost:3000/drinks/'
+};
+
+document.addEventListener('DOMContentLoaded', () => {
     const pElements = document.querySelectorAll('p.pi');
     getData('pi1');
 
-    pElements.forEach(function (pElement) {
-        pElement.addEventListener('click', function () {
-            if (!this.classList.contains('act')) {
-                pElements.forEach(function (p) {
-                    p.classList.remove('act');
-                });
-                this.classList.add('act');
+    pElements.forEach(pElement => {
+        pElement.addEventListener('click', () => {
+            if (!pElement.classList.contains('act')) {
+                pElements.forEach(p => p.classList.remove('act'));
+                pElement.classList.add('act');
+                getData(pElement.id);
             }
         });
     });
 });
 
-let url1 = '  http://localhost:3000/main/';
-let url2 = '  http://localhost:3000/desserts/';
-let url3 = '  http://localhost:3000/drinks/';
-
 async function getData(id) {
-    let url = '';
-    if (id === 'pi1') {
-        url = url1;
-    } else if (id === 'pi2') {
-        url = url2;
-    } else if (id === 'pi3') {
-        url = url3;
-    }
-
+    const url = urls[id];
     try {
-        const res = await axios.get(url);
-        const data = res.data;
-
-        const cards = document.getElementById('cards');
-        cards.innerHTML = '';
-
-        data.forEach(e => {
-            cards.innerHTML +=`
-            <div class="card">
-            <div class="img">
-                <img src="${e.img}" alt="">
-            </div>
-            <div class="name">
-                <h2>${e.name}</h2>
-                <h3>${e.ing}</h3>
-            </div>
-            <p>$ ${e.price}</p>
-        </div>
-            `
-        });
-
+        const { data } = await axios.get(url);
+        renderData(data);
     } catch (error) {
         console.error('Data is not found:', error);
     }
+}
+
+function renderData(data) {
+    const cards = document.getElementById('cards');
+    cards.innerHTML = '';
+
+    data.forEach(item => {
+        cards.innerHTML += `
+            <div class="card">
+                <div class="img">
+                    <img src="${item.img}" alt="">
+                </div>
+                <div class="name">
+                    <h2>${item.name}</h2>
+                    <h3>${item.ing}</h3>
+                </div>
+                <p>$ ${item.price}</p>
+            </div>
+        `;
+    });
 }
