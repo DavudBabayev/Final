@@ -1,24 +1,33 @@
-let user = localStorage.getItem('currentUser') ? JSON.parse(localStorage.getItem('currentUser')).email : null;
+document.addEventListener('DOMContentLoaded', () => {
+    let user = localStorage.getItem('currentUser') ? JSON.parse(localStorage.getItem('currentUser')).email : null;
+    let log = document.querySelector(".log");
+    let us = document.querySelector(".user");
+    let pages = document.querySelectorAll(".icons");
 
-let log = document.querySelector(".log");
-let us = document.querySelector(".user");
-let logOut = document.querySelector("#logOut");
-let test = document.querySelector(".test");
-
-let pages = document.querySelectorAll(".icons");
-
-pages.forEach(() => {
-    if (user) {
-        us.innerHTML += `<i class="bi bi-person-circle">${user}</i> `;
-        us.style.display = 'flex';
-        log.style.display = 'none';
-    } else {
-        us.style.display = 'none';
-        log.style.display = 'flex';
-    }
-
-    logOut.addEventListener("click", () => {
+    const handleLogOut = () => {
         localStorage.removeItem('currentUser');
-        window.location = './login.html';
+        user = null;
+        updateDisplay();
+    };
+
+    const updateDisplay = () => {
+        if (user) {
+            us.innerHTML = `<button id="logOutButton">Log Out</button>
+                            <i class="bi bi-person-circle">${user}</i>`;
+            us.style.display = 'flex';
+            log.style.display = 'none';
+            document.getElementById('logOutButton').addEventListener('click', handleLogOut);
+        } else {
+            us.style.display = 'none';
+            log.style.display = 'flex';
+        }
+    };
+
+    updateDisplay();
+
+    pages.forEach(page => {
+        page.addEventListener('click', () => {
+            updateDisplay();
+        });
     });
 });

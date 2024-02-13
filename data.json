@@ -299,5 +299,24 @@
       "price": 29,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     }
+  ],
+  "reservation": [
+    {
+      "name": "Davud Babayev",
+      "email": "davudbaba00@gmail.com",
+      "phone": "+9940509943398",
+      "date": "2024-02-14",
+      "time": "20:00",
+      "person": "2",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "message": "Hello then",
+      "name": "Davud Babayev",
+      "email": "davudbaba00@gmail.com",
+      "id": 1
+    }
   ]
 }

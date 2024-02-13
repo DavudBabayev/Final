@@ -84,3 +84,72 @@ document.addEventListener("DOMContentLoaded", function() {
         cardsContainer3.scrollLeft -= 100;
     });
 });
+
+
+/////////////DATA//////////
+
+const categories = {
+    'card1': 'main',
+    'card2': 'desserts',
+    'card3': 'drinks'
+};
+
+const cardElements = {
+    'card1': document.querySelector(".cardcar1"),
+    'card2': document.querySelector(".cardcar2"),
+    'card3': document.querySelector(".cardcar3")
+};
+
+let dataLength = {
+    'card1': 0,
+    'card2': 0,
+    'card3': 0
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    Object.keys(cardElements).forEach(id => {
+        getData(id, categories[id]);
+    });
+});
+
+async function getData(id, category) {
+    const url = `http://localhost:3000/${category}/`;
+
+    try {
+        const { data } = await axios.get(url);
+        dataLength[id] = data.length;
+
+        renderData(data, cardElements[id], category);
+        updateCardWidth();
+    } catch (error) {
+        console.error('Data is not found:', error);
+    }
+}
+
+function updateCardWidth() {
+    let card1Width = (dataLength['card1'] * 300) + ((dataLength['card1'] - 1) * 20);
+    let card2Width = (dataLength['card2'] * 300) + ((dataLength['card2'] - 1) * 20);
+    let card3Width = (dataLength['card3'] * 300) + ((dataLength['card3'] - 1) * 20);
+
+    cardElements['card1'].style.width = `${card1Width}px`;
+    cardElements['card2'].style.width = `${card2Width}px`;
+    cardElements['card3'].style.width = `${card3Width}px`;
+}
+
+function renderData(data, cardElement, category) {
+    cardElement.innerHTML = '';
+
+    data.forEach(item => {
+        cardElement.innerHTML += `
+        <div class="card">
+            <div class="info">
+                <a href="./details.html?id=${item.id}&category=${category}"><i class="bi bi-info-circle"></i> See More</a>
+                <a href="#"><i class="bi bi-heart"></i> Add to WishList</a>
+                <a href="#"><i class="bi bi-cart"></i> Add to Cart</a>
+            </div>
+            <img src="${item.img}" alt="">
+            <p>${item.name}</p>
+        </div>
+        `;
+    });
+}

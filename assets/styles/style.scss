@@ -22,9 +22,11 @@ ul{
     list-style: none;
 }
 
+@import 'admin';
 @import 'section1';
 @import 'menu';
 @import 'section2';
+@import 'section2det';
 @import 'section2ctc';
 @import 'section2menu';
 @import 'section2res';
