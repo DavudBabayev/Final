@@ -10,126 +10,143 @@
 </head>
 <body>
     <div class="admin">
-        <form>
-            <label for="name"> Name:
-                <input type="text" placeholder="Name" id="name" required>
-            </label>
-    
-            <label for="ing"> Ingridients:
-                <input type="text" placeholder="Ingridients" id="ing" required>
-            </label>
-    
-            <label for="name"> Info:
-                <input type="text" placeholder="Info" id="info" required>
-            </label>
-    
-            <label for="name"> Price:
-                <input type="number" placeholder="Price" id="price" required>
-            </label>
-    
-            <label for="img"> Image:
-                <input type="file" accept="*/image" id="img" required>
-                <div>
-                    <img src="" alt="">
-                </div>
-            </label>
-    
-            <label for="name"> Menu:
-                <select name="menu" id="menu">
-                    <option value="asdf">Select Menu</option>
-                    <option value="main">Main</option>
-                    <option value="desserts">Desserts</option>
-                    <option value="drinks">Drinks</option>
-                </select>
-            </label>
-    
-            <input type="submit" value="Send Menu" id="sub">
-        </form>
 
-        <div class="main">
-            <h1>Main</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Ingridients</th>
-                        <th>Price</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+        <div class="panel">
+            <ul class="first">
+                <li class="active data">Add</li>
+                <li class="menu-li">Menu
+                    <ul class="second">
+                        <li class="data">Main</li>
+                        <li class="data">Desserts</li>
+                        <li class="data">Drinks</li>
+                    </ul>
+                </li>
+                <li class="data">Reservations</li>
+                <li class="data">Comments</li>
+            </ul>
         </div>
-        <div class="desserts">
-            <h1>Desserts</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Ingridients</th>
-                        <th>Price</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-        <div class="drinks">
-            <h1>Drinks</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Ingridients</th>
-                        <th>Price</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="reservation">
-            <h1>Reservations</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone Number</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Count of People</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="contact">
-            <h1>Messages</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Message</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+        <div class="adminpanel">
+            <form class="data1">
+                <label for="name"> Name:
+                    <input type="text" placeholder="Name" id="name" required>
+                </label>
+        
+                <label for="ing"> Ingridients:
+                    <input type="text" placeholder="Ingridients" id="ing" required>
+                </label>
+        
+                <label for="name"> Info:
+                    <input type="text" placeholder="Info" id="info" required>
+                </label>
+        
+                <label for="name"> Price:
+                    <input type="number" placeholder="Price" id="price" required>
+                </label>
+        
+                <label for="img"> Image:
+                    <input type="file" accept="*/image" id="img" required>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                </label>
+        
+                <label for="name"> Menu:
+                    <select name="menu" id="menu">
+                        <option value="asdf">Select Menu</option>
+                        <option value="main">Main</option>
+                        <option value="desserts">Desserts</option>
+                        <option value="drinks">Drinks</option>
+                    </select>
+                </label>
+        
+                <input type="submit" value="Send Menu" id="sub">
+            </form>
+    
+            <div class="main data1">
+                <h1>Main</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Ingridients</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="desserts data1">
+                <h1>Desserts</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Ingridients</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="drinks data1">
+                <h1>Drinks</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Ingridients</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="reservation data1">
+                <h1>Reservations</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Count of People</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="contact data1">
+                <h1>Messages</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Message</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     

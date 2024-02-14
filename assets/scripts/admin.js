@@ -1,3 +1,55 @@
+let menuLi = document.querySelector(".menu-li");
+let second = document.querySelector(".second");
+
+menuLi.addEventListener("click", () => {
+    if (menuLi.classList.contains("active")) {
+        menuLi.classList.remove("active");
+        if (window.innerWidth < 992) {
+            second.style.width = "0px";
+            menuLi.style.marginRight = "0px";
+        } else {
+            second.style.height = "0px";
+            menuLi.style.marginBottom = "0px";
+        } 
+    } else {
+        menuLi.classList.add("active");
+        if (window.innerWidth < 992) {
+            second.style.width = "260px";
+            menuLi.style.marginRight = "270px";
+        } else {
+            second.style.height = "120px";
+            menuLi.style.marginBottom = "130px";
+        }
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const dataElements = document.querySelectorAll('.data');
+    const data1Elements = document.querySelectorAll('.data1');
+
+    dataElements.forEach(dataElement => {
+        dataElement.addEventListener('click', () => {
+            dataElements.forEach(element => {
+                if (element !== dataElement) {
+                    element.classList.remove('active');
+                }
+            });
+            dataElement.classList.add('active');
+
+            const index = Array.from(dataElements).indexOf(dataElement);
+            data1Elements.forEach((data1Element, i) => {
+                if (i === index) {
+                    data1Element.style.display = 'flex';
+                } else {
+                    data1Element.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+
+//////////FORM//////////
+
 let form = document.querySelector("form");
 let fileInp = document.querySelector("#img");
 let imageDiv = document.querySelector("img");

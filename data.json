@@ -21,88 +21,88 @@
     {
       "id": 2,
       "img": "./assets/Images/dish-4.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Grilled Beef Ribs",
+      "ing": "Meat, Special Spices",
       "price": 17,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 3,
       "img": "./assets/Images/dish-5.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Roasted Vegetable Mix",
+      "ing": "Potatoes, Rice, Tomatoe,",
       "price": 7,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 4,
       "img": "./assets/Images/dish-6.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Roast Chicken",
+      "ing": "Chicken, Special Spices",
       "price": 9,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 5,
       "img": "./assets/Images/dish-7.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Grilled Chicken with Lavanghi",
+      "ing": "Chicken, Walnut, Onion, Special Spices",
       "price": 7.5,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 6,
       "img": "./assets/Images/dish-8.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Fried Giant Lobster",
+      "ing": "Giant Lobster",
       "price": 9.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 7,
       "img": "./assets/Images/dish-9.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Chefs Special",
+      "ing": "Secret",
       "price": 11,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 8,
       "img": "./assets/Images/dish-10.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Grilled Fish with potatoes",
+      "ing": "Fish, Potatoes, Rice, Tomatoe",
       "price": 16,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 9,
       "img": "./assets/Images/dish-11.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Special Udon",
+      "ing": "Meat, Potatoes, Rice, Special Spices",
       "price": 12.5,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 10,
       "img": "./assets/Images/dish-12.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Happy Breakfast",
+      "ing": "Breakfast Ingridients",
       "price": 15.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 11,
       "img": "./assets/Images/dish-13.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "name": "Basic Breakfast",
+      "ing": "Refined Eggs, Tomatoes, Bread",
       "price": 18.3,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 12,
-      "img": "./assets/Images/dish-14.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
+      "img": "./assets/Images/cover_bg_1.jpg",
+      "name": "Chef's Special Steak",
+      "ing": "Meat, Bergamoth, Special Spices",
       "price": 10,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     }
@@ -111,97 +111,97 @@
     {
       "id": 1,
       "img": "./assets/Images/dessert-1.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Rose Cake",
+      "ing": "Secret",
+      "price": 24,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 2,
       "img": "./assets/Images/dessert-2.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Cherry Pie",
+      "ing": "Cherry and Others",
+      "price": 6,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 3,
       "img": "./assets/Images/dessert-3.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "RapsBerry Icecream",
+      "ing": "RapsBerry, Special Icecream",
+      "price": 9,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 4,
       "img": "./assets/Images/dessert-4.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Chef's Special Dessert",
+      "ing": "Special Ingridients",
+      "price": 13,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 5,
       "img": "./assets/Images/dessert-5.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Blackberry Pie",
+      "ing": "Blackberry and Others",
+      "price": 11,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 6,
       "img": "./assets/Images/dessert-6.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Special Cream Dessert",
+      "ing": "Special Ingridients",
+      "price": 7,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 7,
       "img": "./assets/Images/dessert-7.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Fruit Pancakes",
+      "ing": "Fruits",
+      "price": 4,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 8,
       "img": "./assets/Images/dessert-8.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Cream Bread",
+      "ing": "Special Cream",
+      "price": 4.4,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 9,
       "img": "./assets/Images/dessert-9.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Choco Cake",
+      "ing": "Special Ingridients",
+      "price": 9,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 10,
       "img": "./assets/Images/dessert-10.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "RapsBerry Powdered Pancakes",
+      "ing": "RapsBerry, Vanilla Powder, Special Pancakes",
+      "price": 5.1,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 11,
       "img": "./assets/Images/dessert-11.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Strawberrie Pancakes",
+      "ing": "Strawwberries, Special Pancakes",
+      "price": 6.6,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 12,
       "img": "./assets/Images/dessert-12.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Lemon Cake",
+      "ing": "Lemon, Special Cake",
+      "price": 6.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     }
   ],
@@ -209,97 +209,97 @@
     {
       "id": 1,
       "img": "./assets/Images/drink-1.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Citrus Bomb",
+      "ing": "Orange, Tangerine, Lemon",
+      "price": 1.1,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 2,
       "img": "./assets/Images/drink-2.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Champagne",
+      "ing": "Champagne",
+      "price": 3.5,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 3,
       "img": "./assets/Images/drink-3.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Fruit Cocktail",
+      "ing": "Fruits, Cocktail",
+      "price": 2.1,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 4,
       "img": "./assets/Images/drink-4.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Beer",
+      "ing": "Beer",
+      "price": 3.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 5,
       "img": "./assets/Images/drink-5.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Bourbon",
+      "ing": "Bourbon",
+      "price": 5,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 6,
       "img": "./assets/Images/drink-6.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Strawberrie Bomb",
+      "ing": "Secret",
+      "price": 7.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 7,
       "img": "./assets/Images/drink-7.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Gin Cocktail",
+      "ing": "Gin, Special Ingridients",
+      "price": 6.4,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 8,
       "img": "./assets/Images/drink-8.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Berrie Bomb",
+      "ing": "Mixed Berries, Special Cocktail",
+      "price": 7.3,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 9,
       "img": "./assets/Images/drink-9.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Hawai Wind",
+      "ing": "Secret",
+      "price": 9,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 10,
       "img": "./assets/Images/drink-10.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Whiskey Cocktail",
+      "ing": "Whiskey, Special Cocktail",
+      "price": 12,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 11,
       "img": "./assets/Images/drink-11.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Special Cocktail",
+      "ing": "Special Ingridients",
+      "price": 7.5,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     },
     {
       "id": 12,
       "img": "./assets/Images/drink-12.jpg",
-      "name": "Grilled Beef with potatoes",
-      "ing": "Meat, Potatoes, Rice, Tomatoe",
-      "price": 29,
+      "name": "Mixed Cocktail",
+      "ing": "Grayfruit, Spedial Ingridients",
+      "price": 9.2,
       "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quasi maiores nam esse veniam. Sed consequuntur, qui, corporis placeat saepe est repudiandae, vero culpa accusamus dignissimos unde quo blanditiis voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sunt deleniti cum amet laudantium. Beatae, magni culpa numquam dignissimos expedita, qui voluptate exercitationem soluta tempora odit cum ratione nam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore fuga debitis ex tempora eligendi quod eveniet nisi odio aut neque veritatis necessitatibus odit, sed saepe quisquam quas, soluta quos!"
     }
   ],
